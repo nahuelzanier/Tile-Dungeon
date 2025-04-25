@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://mpjq8svf2xsy"]
+
+[ext_resource type="PackedScene" uid="uid://d2lqcbua2bm7k" path="res://src/jugador.tscn" id="1_hupk7"]
+[ext_resource type="Script" uid="uid://bpvx6sevp4haa" path="res://src/tablero.gd" id="1_mk3dk"]
+[ext_resource type="PackedScene" uid="uid://bmwenq64oy8nm" path="res://src/item.tscn" id="2_ninjx"]
+[ext_resource type="PackedScene" uid="uid://dujxs10f6g2on" path="res://src/pared.tscn" id="3_pr380"]
+
+[node name="Tablero" type="Node2D"]
+script = ExtResource("1_mk3dk")
+
+[node name="Jugador" parent="." instance=ExtResource("1_hupk7")]
+
+[node name="Item" parent="." instance=ExtResource("2_ninjx")]
+position = Vector2(256, 128)
+
+[node name="Item2" parent="." instance=ExtResource("2_ninjx")]
+position = Vector2(192, 192)
+
+[node name="Pared" parent="." instance=ExtResource("3_pr380")]
+position = Vector2(256, 64)
+
+[node name="Pared2" parent="." instance=ExtResource("3_pr380")]
+position = Vector2(320, 64)
+
+[node name="Pared3" parent="." instance=ExtResource("3_pr380")]
+position = Vector2(320, 0)
+
+[node name="Pared4" parent="." instance=ExtResource("3_pr380")]
+position = Vector2(128, 256)
+
+[node name="Pared5" parent="." instance=ExtResource("3_pr380")]
+position = Vector2(192, 320)
+
+[node name="Item3" parent="." instance=ExtResource("2_ninjx")]
+position = Vector2(384, 256)

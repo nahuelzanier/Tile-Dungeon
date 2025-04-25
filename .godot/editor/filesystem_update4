@@ -1,0 +1,10 @@
+res://src/pared.tscn
+res://src/pared.gd
+res://src/item.tscn
+res://src/tablero.tscn
+res://src/celda.gd
+res://src/celda.tscn
+res://src/jugador.tscn
+res://src/item.gd
+res://src/tablero.gd
+res://src/jugador.gd

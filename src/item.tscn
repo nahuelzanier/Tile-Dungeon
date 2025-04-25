@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmwenq64oy8nm"]
+
+[ext_resource type="Script" uid="uid://ds0xog5p4tn5l" path="res://src/item.gd" id="1_0chbe"]
+
+[node name="Item" type="Node2D"]
+script = ExtResource("1_0chbe")
+tipo = "Item"
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(16, 8, 48, 8, 48, 16, 40, 16, 40, 32, 48, 32, 56, 40, 56, 48, 48, 56, 40, 56, 16, 56, 8, 48, 8, 40, 16, 32, 24, 32, 24, 24, 24, 16, 16, 16)

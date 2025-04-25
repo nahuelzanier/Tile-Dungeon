@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2lqcbua2bm7k"]
+
+[ext_resource type="Script" uid="uid://c4hlinnr27oxp" path="res://src/jugador.gd" id="1_m54tv"]
+
+[node name="Jugador" type="Node2D"]
+script = ExtResource("1_m54tv")
+tipo = "Jugador"
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(0, 0, 0, 64, 64, 64, 64, 8, 56, 16, 56, 56, 8, 56, 8, 8, 64, 8, 64, 0)

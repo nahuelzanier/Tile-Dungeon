@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://vnm72kbh5wrc"]
+
+[ext_resource type="Script" uid="uid://5qi0lmd75bc4" path="res://src/celda.gd" id="1_ev6pm"]
+
+[node name="Celda" type="Node2D"]
+script = ExtResource("1_ev6pm")

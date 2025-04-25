@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1745613576
+icon.svg::CompressedTexture2D/CompressedTexture2D::1271968421507503224::1745363245::1745363251::1::::<><><>0<>0<>480b4bb6c75198ff0027d4054f2eeb98<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://src/::1745434312
+celda.gd::GDScript/GDScript::2139226330470436021::1745365607::0::1::::Celda<>Node2D<><>0<>0<><>::
+celda.tscn::PackedScene::1501589810154104348::1745434221::0::1::::<><><>0<>0<><>::uid://5qi0lmd75bc4::::res://src/celda.gd
+jugador.gd::GDScript::6823451354134997221::1745433498::0::1::::<>Celda<><>0<>0<><>::
+jugador.tscn::PackedScene::9078044111528482098::1745434221::0::1::::<><><>0<>0<><>::uid://c4hlinnr27oxp::::res://src/jugador.gd
+tablero.tscn::PackedScene::873808577643610016::1745434312::0::1::::<><><>0<>0<><>::uid://d2lqcbua2bm7k::::res://src/jugador.tscn
